@@ -1,0 +1,8 @@
+---
+- hosts: all
+
+  vars:
+    - run_tests: true
+
+  roles:
+    - role: "bassinator.ubuntu_desktop"
