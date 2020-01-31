@@ -4,7 +4,7 @@ services: docker
 
 env:
   global:
-    - ROLE_NAME: ubuntu_desktop 
+    - ROLE_NAME: ubuntu_desktop
   matrix:
     - MOLECULE_DISTRO: centos7
 
